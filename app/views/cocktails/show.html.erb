@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+      <h1><%= @cocktail.name %></h1>
+      <table class="table table-bordered">
+        <tbody>
+          <tr>
+            <th scope="row">Name</th>
+            <td><%= @cocktail.name %></td>
+          </tr>
+          <br>
+          <%= link_to "Back to home page", cocktails_path, class: 'btn btn-primary' %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
